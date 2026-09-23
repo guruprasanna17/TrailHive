@@ -16,7 +16,6 @@ export default function Testimonial() {
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="testimonial-content">
-
         <p className="testimonial-label">TESTIMONIAL</p>
 
         <h2>

@@ -9,7 +9,6 @@ import linkedin from "../../assets/linkedin-icon.svg";
 export default function Footer() {
   return (
     <footer className="footer" id="contact">
-
       
       <div className="footer-top">        
         <div className="footer-logo">
@@ -34,10 +33,8 @@ export default function Footer() {
           <a href="#support">Support</a>
           <a href="#members">Members</a>
         </div>
-
-        
+  
         <div className="subscribe">
-
           <p>Enter your email</p>
 
           <div className="subscribe-row">
@@ -55,43 +52,32 @@ export default function Footer() {
             By subscribing you agree to our{" "}
             <u>Privacy Policy</u>
           </small>
-
         </div>
-
       </div>
 
-      
       <div className="footer-bottom">
         <span>
           © 2023 TrailHive. All rights reserved.
         </span>
-
         <span>Privacy Policy</span>
         <span>Terms of Service</span>
         <span>Cookies Settings</span>
-
-        
+ 
         <div className="social-icons">
-
           <a href="#" aria-label="Facebook">
             <img src={facebook} alt="Facebook" />
           </a>
-
           <a href="#" aria-label="Instagram">
             <img src={instagram} alt="Instagram" />
           </a>
-
           <a href="#" aria-label="Twitter">
             <img src={twitter} alt="Twitter" />
           </a>
-
           <a href="#" aria-label="LinkedIn">
             <img src={linkedin} alt="LinkedIn" />
           </a>
-
         </div>
       </div>
-
     </footer>
-  );
+  )
 }
