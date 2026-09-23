@@ -2,7 +2,7 @@ import React from "react";
 import "./SecondTestimonial.css";
 import testimonialBg from "../../assets/second-testimonial-bg.jpg.png";
 
-const SecondTestimonial = () => {
+export default function SecondTestimonial () {
   return (
     <section
       className="second-testimonial"
@@ -36,4 +36,3 @@ const SecondTestimonial = () => {
   );
 };
 
-export default SecondTestimonial;
